@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --destaque: #E3646E;
+    --contato:#BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;                
+    --yellow: #EABD5F ;
+
+    --bg-color:#0D0E11; 
+    --bg-service: #16181D;
+    --bg-itens:#292C34;
+    --title-color:#E2E4E9 ; 
+    --text-color: #878EA1 ;
+    
+    
+
+    --font-title: "Asap", sans-serif;
+    --font-sub:"Inconsolata", system-ui;
+    --font-text: "Maven Pro", sans-serif; 
+    
+}

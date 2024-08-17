@@ -17,5 +17,5 @@
     display: grid;
 }
 .grid-flow-colluns{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }

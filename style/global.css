@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 :root{
     --red: #E3646E;
@@ -24,6 +25,7 @@
     --h1:bold 56px/120%  var(--font-title);
     --h2: bold 20px/120% var(--font-sub);
     --title-sm: bold 16px/120% var(--font-title);
+    --title-md: bold 24px/120% var(--font-title);
     --sub: 20px/120% var(--font-sub);
     --text-md: 16px/140% var(--font-text);
     --text-sm: 14px/140% var(--font-text);
@@ -33,9 +35,11 @@
 body{
     background-color: var(--gray-200);
     color: var(--gray-600);
+  
 }
 .container{
     width: 1040px;
     margin-inline: auto;
     margin-top: 90px;
 }
+

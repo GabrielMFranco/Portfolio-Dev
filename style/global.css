@@ -4,22 +4,38 @@
     box-sizing: border-box;
 }
 :root{
-    --destaque: #E3646E;
-    --contato:#BB72E9;
+    --red: #E3646E;
+    --purple:#BB72E9;
     --blue: #3996DB;
     --green: #82BC4F;                
     --yellow: #EABD5F ;
 
-    --bg-color:#0D0E11; 
-    --bg-service: #16181D;
-    --bg-itens:#292C34;
-    --title-color:#E2E4E9 ; 
-    --text-color: #878EA1 ;
-    
-    
+    --gray-100:#0D0E11; 
+    --gray-200: #16181D;
+    --gray-300:#292C34;
+    --gray-400r:#878EA1; 
+    --gray-500 : #C0C4CE;
+    --gray-600: #E2E4E9; 
 
     --font-title: "Asap", sans-serif;
     --font-sub:"Inconsolata", system-ui;
     --font-text: "Maven Pro", sans-serif; 
-    
+
+    --h1:bold 56px/120%  var(--font-title);
+    --h2: bold 20px/120% var(--font-sub);
+    --title-sm: bold 16px/120% var(--font-title);
+    --sub: 20px/120% var(--font-sub);
+    --text-md: 16px/140% var(--font-text);
+    --text-sm: 14px/140% var(--font-text);
+
+}
+
+body{
+    background-color: var(--gray-200);
+    color: var(--gray-600);
+}
+.container{
+    width: 1040px;
+    margin-inline: auto;
+    margin-top: 90px;
 }

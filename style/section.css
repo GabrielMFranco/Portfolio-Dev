@@ -1,0 +1,48 @@
+#serviço{
+    display: grid;
+    background-color: var(--gray-100);
+    justify-content: center;
+    
+    
+    h2{
+        font: var(--title-sm);
+    }
+    p{
+        font: var(--text-sm);
+        padding: 5px;
+    
+    }
+    span{
+        border:3px solid var(--gray-200);
+        padding: 20px;
+        border-radius: 10px;
+    
+        
+        img#a{
+            width: 44px;
+            height: 33px;
+        }
+        img#b{
+            width: 36px;
+            height: 33px;
+        }
+        img#c{
+            width: 45px;
+            height: 21px;
+        }
+    }
+    
+}
+div#texto{
+    padding-top: 88px;
+    text-align: center;
+    
+    
+}
+#options{
+    width: 888px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 28px;
+    padding-block: 56px 120px;
+
+}

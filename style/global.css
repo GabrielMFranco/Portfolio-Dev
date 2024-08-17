@@ -42,4 +42,8 @@ body{
     margin-inline: auto;
     margin-top: 90px;
 }
+.sub{
+    font: var(--sub);
+}
+
 

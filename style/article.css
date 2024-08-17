@@ -6,9 +6,7 @@ main{
         font: var(--title-md);
         
     }
-    #sub{
-        font: var(--sub);
-    }
+    
     article{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -51,4 +49,3 @@ main{
 #fotos{
     margin-inline: auto;
 }
-

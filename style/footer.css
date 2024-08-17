@@ -1,0 +1,47 @@
+footer{
+    text-align: center;
+    margin-block: 128px 200px;
+
+    p{
+        font: var(--sub);
+        padding: 8px;        
+    }
+    h2{
+        font: var(--title-md);
+    }
+    nav{
+        margin-top: 48px;
+        display: grid;
+        justify-content: center;
+    }
+    span{
+        background-color: var(--gray-300);
+        width: 400px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+
+        .link{
+            display: inline-block;
+            
+            padding: 0px;
+            width: 300px;            
+        }
+    }
+    img{
+        width: 24px;
+        height: 23px;
+        padding-top: ;
+    }
+
+    .seta{
+        width: 11px;
+        height: 11px;
+    }
+}
+a{
+    text-decoration: none;
+    color: var(--gray-500);
+    
+
+}
